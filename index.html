@@ -8,6 +8,58 @@
     <title>Tela Login</title>
 </head>
 <body>
+    <main>
+        <div class="loginIMG"> <!-- Papel de Fundo -->
+            <img src="#" > <!-- image login AQUI -->
+
+        </div>
+
+        <div class="loginMain"> <!-- Main Conteiner -->
+            <span class="loginOla"> <!-- Titulo / Saudação -->
+                <h1>Login</h1>
+                <h2>Seja bem Vindo!</h2>
+            </span>
+
+            <form action="loguin.php" method="post"> <!-- Formulario -->
+                <p>
+                    <label for="userEmail">Email:</label>
+                    <input type="email" name="userEmail" id="" required placeholder="Email">
+                </p>
+
+                <p>
+                    <label for="userPass">Password:</label>
+                    <input type="password" name="userPass" id="" required placeholder="Password" minlength="8">
+                </p>
+                <p><input type="checkbox" name="userLogSave" id="">Manter conectado</p>
+
+                <p><input type="submit" value="Log-in"></p>
+            </form>
+
+            <span class="login-opt"> <!-- Recuperação / cadastro -->
+                <p><a href="#">Esqueceu sua senha?</a> ou 
+                <a href="#">Faça seu cadastro</a></p>
+            </span>
+
+            <div class="socialSpace"> <!-- Social login -->
+                <p>Faça Login com:</p>
+
+                <div class="google-btn">  <!-- botao google -->
+                    <div class="google-icon-wrapper">
+                        <img class="google-icon" src="#"> <!-- icone AQUI -->
+                    </div>
+                </div>
+
+                <div class="facebook-btn"> <!-- botao facebook   -->
+                    <div class="facebook-icon-wrapper">
+                        <img class="facebook-icon" src="#"> <!-- icone AQUI -->
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </main>
     
 </body>
 </html>
