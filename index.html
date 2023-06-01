@@ -11,7 +11,7 @@
 <body>
     <main>
         <div class="loginIMG"> <!-- Papel de Fundo -->
-            <img class="loginBack" src="Imagens/LoginscreenIMG.png" > <!-- image login AQUI -->
+            <img class="loginBack" src="#" > <!-- image login AQUI -->
 
         </div>
 
@@ -21,24 +21,24 @@
                 <h2>Seja bem Vindo!</h2>
             </span>
 
-            <form action="loguin.php" method="post"> <!-- Formulario -->
+            <form class="login-Form" action="loguin.php" method="post"> <!-- Formulario -->
                 <p>
-                    <label for="userEmail">Email:</label>
-                    <input type="email" name="userEmail" id="" required placeholder="Email">
+                    
+                    <input class="ipt-User" type="email" name="userEmail"  required placeholder="Email *">
                 </p>
 
                 <p>
-                    <label for="userPass">Password:</label>
-                    <input type="password" name="userPass" id="" required placeholder="Password" minlength="8">
+                    
+                    <input class="ipt-User" type="password" name="userPass"  required placeholder="Password *" minlength="8">
                 </p>
-                <p><input type="checkbox" name="userLogSave" id="">Manter conectado</p>
+                <p class="login-Remember"><input class="ipt-Remember" type="checkbox" name="userLogSave"> &nbsp; Manter conectado</p>
 
-                <p><input type="submit" value="Log-in"></p>
+                <input class="login-Submit-btn" type="submit" value="Login">
             </form>
 
             <span class="login-opt"> <!-- Recuperação / cadastro -->
-                <p><a href="#">Esqueceu sua senha?</a> ou 
-                <a href="#">Faça seu cadastro</a></p>
+                <p><a href="#">Esqueceu sua senha?</a>&nbsp; <strong>ou</strong> &nbsp;
+                <a href="#">Faça seu cadastro.</a></p>
             </span>
 
             <div class="socialSpace"> <!-- Social login -->
@@ -46,15 +46,15 @@
 
                 <div class="google-btn">  <!-- botao google -->
                     <div class="google-icon-wrapper">
-                        <img class="google-icon" src="#"> <!-- icone AQUI -->
-                    </div>
+                        <img class="google-icon" src="Imagens/G_icon.svg"> <!-- icone AQUI -->
+                    </div> 
+                    <p class="btn-text"><strong>Google</strong></p>
                 </div>
 
                 <div class="facebook-btn"> <!-- botao facebook   -->
                     <div class="facebook-icon-wrapper">
-                        <img class="facebook-icon" src="#"> <!-- icone AQUI -->
-                    </div>
-
+                        <img class="facebook-icon" src="Imagens/F_icon.png"> <!-- icone AQUI -->
+                    </div><strong>Facebook</strong>
                 </div>
             </div>
 
