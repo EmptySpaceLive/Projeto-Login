@@ -46,7 +46,7 @@ main{
 
 .loginMain {
     height: 30rem;
-    background-color: whitesmoke;
+    background-color: rgb(245, 245, 245);
     border-bottom-left-radius: 1%;
     border-bottom-right-radius: 1%;
 
