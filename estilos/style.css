@@ -45,7 +45,7 @@ main{
 }
 
 .loginMain {
-    height: 30rem;
+    min-height: 30rem;
     background-color: rgb(245, 245, 245);
     border-bottom-left-radius: 1%;
     border-bottom-right-radius: 1%;
@@ -138,8 +138,7 @@ main{
 }
 
 
-.google-btn{
-    
+.google-btn{    
     margin-top: 2rem;
     width: 7rem;
     height: 30px;
@@ -149,45 +148,39 @@ main{
     background-color: rgb(250, 250, 250);
     &:hover{
         cursor: pointer;
-    }
+    }     
     
-    .google-text{
-        position: relative;
-        margin-left: 10px;
-        bottom: 4px;
-    }
+}
+.google-text{
+    position: relative;
+    margin-left: 10px;
+    bottom: 4px;
+}
 
-    .google-icon-wrapper{
-        margin-top: 5px;
-        margin-left: -10px;          
-        display: inline-block;
-        height: 20px;
-        width: 20px;
+.google-icon-wrapper{
+    margin-top: 5px;
+    margin-left: -10px;          
+    display: inline-block;
+    height: 20px;
+    width: 20px;
     
-        .google-icon{
-    
-            height: 100%;
-            width: 100%;
-        }
-        
-        
-        
-    }
-    
+}
+
+.google-icon{
+
+    height: 100%;
+    width: 100%;
 }
 
 
 
 
-
-.facebook-btn{
-    
+.facebook-btn{    
     margin-top: 2rem;
     width: 7rem;
     height: 30px;
     border-radius: 5px;
-    border: 1px solid rgba(0, 0, 0, 0.514);
-    
+    border: 1px solid rgba(0, 0, 0, 0.514);    
     display: inline-block;
     background-color: #3a5c9e;
     &:hover{
@@ -216,35 +209,3 @@ main{
 }
 
 
-/* .google-btn{    
-    width: 184px;
-    height: 42px;
-    background-color: rgba(0, 0, 255, 0.349);
-    border-radius: 2px;
-    box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);
-    .google-icon-wrapper {
-        position: absolute;
-        margin-top: 1px;
-        margin-left: 1px;
-        width: 40px;
-        height: 40px;
-        border-radius: 2px;
-        background-color: white;
-    }
-    .google-icon{
-        position: absolute;
-        margin-top: 11px;
-        margin-left: -9px;
-        width: 18px;
-        height: 18px;
-    }
-    .btn-text{
-        float: right;
-        margin: 11px 11px 0 0;
-        color: white;
-        font-size: 14px;
-        letter-spacing: 0.2px;
-        font-family: "Roboto";
-    
-    }
-} */
