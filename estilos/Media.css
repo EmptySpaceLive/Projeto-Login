@@ -2,18 +2,21 @@
 
 @media screen and (min-width: 640px){
     main{
-        width: 100%;
+        width: 70vw;
         
     }
     .loginIMG{
-        display: inline-block;
-        height: 30rem;
+        float: left; /* ORGANIZAR ELEMENTO A ESQUERDA */
+        display: block;
+        width: 600px;
+        height: 700px;
         
         
     }
     
     .loginMain{
-        display: inline-block;
+        float: right; /* ORGANIZAR ELEMENTO A DIREITA */
+        display: block;
         width: 600px;
         height: 700px;
     }
