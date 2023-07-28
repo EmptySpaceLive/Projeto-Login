@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@media screen and (min-width: 640px){
+@media screen and (min-width: 768px) and (max-width: 992px){
     main{
         width: 70vw;
         
@@ -8,16 +8,54 @@
     .loginIMG{
         float: left; /* ORGANIZAR ELEMENTO A ESQUERDA */
         display: block;
-        width: 600px;
+        width: 50%;
         height: 700px;
-        
+        border-top-right-radius: 0%;
+        border-bottom-left-radius:1%;      
         
     }
     
     .loginMain{
         float: right; /* ORGANIZAR ELEMENTO A DIREITA */
         display: block;
-        width: 600px;
+        width: 50%;
         height: 700px;
+        border-top-right-radius: 1%;
+        border-bottom-left-radius: 0%;
     }
+}
+
+@media screen and (min-width:993px) {
+    main{
+        width: 70vw;
+        max-width: 1200px;
+        
+    }
+    .loginIMG{
+        float: left; /* ORGANIZAR ELEMENTO A ESQUERDA */
+        display: block;
+        width: 60%;
+        height: 700px;
+        border-top-right-radius: 0%;
+        border-bottom-left-radius:1%;      
+        
+    }
+    
+    .loginMain{
+        float: right; /* ORGANIZAR ELEMENTO A DIREITA */
+        display: block;
+        width: 40%;
+        height: 700px;
+        border-top-right-radius: 1%;
+        border-bottom-left-radius: 0%;
+    } 
+
+    .loginOla h1{
+        margin-top: 80px;
+    }
+
+    .socialSpace{
+        margin-top: 200px;
+    }
+
 }

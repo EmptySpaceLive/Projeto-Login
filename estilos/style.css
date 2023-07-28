@@ -23,8 +23,9 @@ body {
     
 }
 main{
-    width: 70VW;       
-        
+    width: 70VW;  
+    transition: width .4s, height .4s;     
+        /* ANIMAÇÃO SUAVE PARA MUDANÇA DE WIDTH E HEIGHT 0.4 sec */
 }
 
 .loginIMG{
