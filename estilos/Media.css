@@ -32,22 +32,24 @@
         
     }
     .loginIMG{
-        float: left; /* ORGANIZAR ELEMENTO A ESQUERDA */
+        float: right; /* ORGANIZAR ELEMENTO A ESQUERDA */
         display: block;
         width: 60%;
         height: 700px;
-        border-top-right-radius: 0%;
-        border-bottom-left-radius:1%;      
+        border-radius: 0% 1% 1% 0%;
+        /* border-top-left-radius: 0%;
+        border-top-right-radius: 1%;
+        border-bottom-left-radius:0%;
+        border-bottom-right-radius: 1%;   */    
         
     }
     
     .loginMain{
-        float: right; /* ORGANIZAR ELEMENTO A DIREITA */
+        float: left; /* ORGANIZAR ELEMENTO A DIREITA */
         display: block;
         width: 40%;
         height: 700px;
-        border-top-right-radius: 1%;
-        border-bottom-left-radius: 0%;
+        border-radius: 1% 0% 0% 1%;
     } 
 
     .loginOla h1{

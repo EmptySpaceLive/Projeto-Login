@@ -24,7 +24,8 @@ body {
 }
 main{
     width: 70VW;  
-    transition: width .4s, height .4s;     
+    transition: width .4s, height .4s;  
+    transition-timing-function: ease;   
         /* ANIMAÇÃO SUAVE PARA MUDANÇA DE WIDTH E HEIGHT 0.4 sec */
 }
 
